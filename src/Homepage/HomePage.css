@@ -1,0 +1,92 @@
+.head_app {
+  background: linear-gradient(to right, #bd0f4d, #cb2964);
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.home_body {
+  flex: 0.9;
+  padding-left: 150px;
+}
+.head_text {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.head_text h6 {
+  /* font-family: "Neuton", sans-serif; */
+  letter-spacing: 20px;
+  font-size: 30px;
+  font-weight: 100;
+  color: #f8e4eb;
+}
+.body_center {
+  display: flex;
+  place-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
+  padding-top: 500px;
+  width: 600px;
+  height: 55px;
+  background: linear-gradient(to right, #c72762, #ce2a66);
+  box-shadow: -10px 3px 10px 0px rgba(50, 50, 50, 0.7);
+}
+.body_centerImage {
+  margin-bottom: 350px;
+}
+.header_bottom {
+  display: flex;
+  justify-content: center;
+}
+.bottom__Nav h4 {
+  padding: 50px;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  color: #fefafb;
+}
+.header-image {
+  border-radius: 50px;
+}
+.header-image > img {
+  padding: 50px;
+  width: 100px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.socialMedia {
+  flex: 0.1;
+  display: flex;
+  flex-direction: column;
+  padding-top: 300px;
+  padding-right: 30px;
+}
+.top_icon img {
+  padding-top: 30px;
+  cursor: pointer;
+}
+.body_icon {
+  padding-top: 40px;
+  padding-bottom: -340px;
+  cursor: pointer;
+}
+.body_icon img {
+  padding: 5px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+/* .head_app{
+    display: flex;
+} */
+/* .left_background{
+    background-color:  #bd0f4d;
+    width: 50%;
+    height: 100vh
+}
+.right_background{
+    background-color:  #cb2964;
+    width: 50%;
+    height: 100vh
+} */
